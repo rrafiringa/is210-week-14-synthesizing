@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """ Wk14 - Synthetizing tasks Task 2 """
 
-from task_01 import *
+import task_01
 
 
 def fibo(count):
@@ -17,5 +17,4 @@ def fibo(count):
         [0, 1, 1, 2, 3]
     """
 
-    return [x for x in xfibo(count)]
-
+    return [x for x in task_01.xfibo(count)]
